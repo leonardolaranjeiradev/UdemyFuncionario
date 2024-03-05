@@ -28,7 +28,7 @@ public class Program {
 		double porcentagem = sc.nextDouble();
 		funcionario.aumentarSalario(porcentagem);			
 		
-		System.out.println("Dados atualizados: " + funcionario.toString());
+		System.out.println("Dados atualizados:" + funcionario.toString());
 		
 		
 		sc.close();
