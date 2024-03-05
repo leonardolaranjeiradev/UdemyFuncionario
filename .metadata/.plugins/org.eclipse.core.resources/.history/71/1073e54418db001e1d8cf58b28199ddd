@@ -9,9 +9,5 @@ public class Funcionario {
 	public double salarioLiquido() {
 		return salarioBruto - imposto;
 	}
-	
-	public void aumentarSalario(double porcentagem) {
-		 salarioBruto += salarioBruto * porcentagem / 100.0;
-	}
 
 }

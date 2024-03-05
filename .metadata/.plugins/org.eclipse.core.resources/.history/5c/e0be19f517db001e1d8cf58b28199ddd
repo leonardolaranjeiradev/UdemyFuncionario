@@ -22,9 +22,9 @@ public class Program {
 		System.out.println("Imposto:");
 		funcionario.imposto = sc.nextDouble();
 		
-		System.out.printf("Funcionario: %s $ %.2f%n", funcionario.nome, funcionario.salarioLiquido());
+		System.out.printf("Funcionario:%s $ %.2f%n", funcionario.nome, funcionario.salarioLiquido());
 				
-		System.out.println("Qual percentual para aumentar o salário?");
+		
 		
 		
 		
